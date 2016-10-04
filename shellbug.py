@@ -210,6 +210,7 @@ def run_sc(SC, SCOUNT, STACK_ADDRESS):
 SC = sys.argv[1]
 SC = sys.argv[1].replace("\\x", "")
 SC = SC.replace("0x", "")
+SC = SC.replace("'", "")
 SC = [SC[x:x + 2] for x in range(0, len(SC), 2)]
 SC = "".join([chr(int(x, 16)) for x in SC])
 
