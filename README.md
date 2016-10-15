@@ -1,5 +1,5 @@
 # shellbug
-Basic command line, text-based, shellcode debugger using [Capstone](http://capstone-engine.org)/[Keystone](http://keystone-engine.org).
+Basic command line, text-based, shellcode debugger using [Capstone](http://capstone-engine.org)/[Unicorn](http://unicorn-engine.org).
 
 Wanted to put together a small tool for stepping forward and backwards through basic shellcode interactively. Nothing special but sometimes it's a good learning experience to reinvent the wheel. Obviously it won't work on shellcode with external depedencies (eg API's) but if I find myself using it more than I'll probably go back and build in some API emulation.
 
