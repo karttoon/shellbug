@@ -5,7 +5,7 @@ from unicorn.x86_const import *
 import subprocess as sp
 import sys
 
-__author__  = "Jeff White [karttoon]"
+__author__  = "Jeff White [karttoon] @noottrak"
 __email__   = "karttoon@gmail.com"
 __version__ = "1.0.1"
 __date__    = "06OCT2016"
